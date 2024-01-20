@@ -107,7 +107,7 @@ h2{
 
 .image3{
     padding:100px;
-    height:75vh;
+    height:50vh;
     width:50%;
     margin-bottom:20px;
 }
@@ -128,7 +128,7 @@ h2{
 
 .image4{
     padding:100px;
-    height:75vh;
+    height:50vh;
     width:100%;
     margin-bottom:20px;
 }
@@ -141,6 +141,18 @@ h2{
     font-family: sans-serif;
     text-align: center;
 }
+
+a{
+	text-decoration:none;
+	color:purple;
+}
+a:hover{
+	color:palegreen;
+}
+a:active{
+	color:white;
+}
+
 
 @media screen and (max-width: 768px) {
     body{
