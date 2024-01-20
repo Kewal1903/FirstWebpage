@@ -1,0 +1,209 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.main{
+    height:100vh;
+    width:100%;
+    background-image: url(Walls/headingbg.jpg);
+    background-size:cover;
+    border:#fff 20px double;
+
+}
+
+.heading{
+    text-align : center;
+    position: absolute;
+    top:30%;
+    left:18%;
+    font-family:sans-serif;
+    color: #fff;
+    letter-spacing:2px;
+    font-size:15vh;
+    padding-bottom:100px;
+}
+
+.container1{
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width:100%;
+    background-image: url(Walls/Wall1.jpg);
+    background-size: cover;
+    border:black 20px double;
+}
+
+.container1.info{
+    background-color: black;
+    color: white;
+    border:2px white;
+}
+
+.image1{
+    padding:100px;
+    height:65vh;
+    width:auto;
+    margin-bottom:20px;
+
+}
+
+p{
+    padding-right: 100px;
+    font-size: 2.5vh;
+    font-family: "Lato", sans-serif;
+    letter-spacing:2px;
+    line-height:30px;
+    border: black 5px;
+    
+}
+
+h1{
+    font-size: 5.8vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 2.9vh;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container2{
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+    background: url(Walls/Wall2.jpg);
+    background-size: cover;
+    border:black 20px double;
+}
+
+.image2{
+    padding:100px;
+    height:65vh;
+    width:50%;
+    margin-bottom:20px;
+}
+
+.container3{
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    width:100%;
+    background: url(Walls/144405599-Wall3.jpg);
+    background-size:cover;
+    border:black 20px double;
+
+}
+
+.image3{
+    padding:100px;
+    height:75vh;
+    width:50%;
+    margin-bottom:20px;
+}
+
+.container4{
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    width:100%;
+    background: url(Walls/Wall4.jpg);
+    background-size:cover;
+    border:black 20px double;
+
+}
+
+.image4{
+    padding:100px;
+    height:75vh;
+    width:100%;
+    margin-bottom:20px;
+}
+
+.footer{
+    background-color: black;
+    height:43px;
+    padding-top: 10px;
+    color:white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+      padding: 0;
+      margin: 0;
+    }
+    .heading {
+      font-size: 3vh;
+      letter-spacing: 2px;
+  
+    }
+  
+   
+    .image2,.image1,.images3,.image4{
+      height: 200px;
+      width: auto;
+      padding: 10px;
+    }
+  
+    p {
+      padding-left: 20px;
+      padding-bottom: 20px;
+      padding-top: 0px;
+      padding-right: 20px;
+      text-align: center;
+      font-size: 2vh;
+      letter-spacing: 2px;
+      line-height: 20px;
+    }
+  
+    h1 {
+      font-size: 4vh;
+      padding: 10px;
+    }
+  
+    .pics,.container1,.container2,.container3,.container4,.info{
+      /* flex-direction: column; */
+      display: block;
+      text-align: center;
+    }
+  
+   
+  .image4{
+    padding-bottom: 10px;
+  }
+    h2{
+      margin-top: 30px;
+    }
+  
+    .heading{
+      font-size: 7vh;
+    }
+  
+    .container2,.container1,.container3{
+      padding-bottom: 60px;
+    }
+    .container1,.container3{
+      padding-top: 20px;
+    }
+    .container4{
+      padding-bottom: 100px;
+    }
+    h2{
+      font-size: 3vh;
+    }
+  }
